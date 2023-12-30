@@ -1,0 +1,178 @@
+/* header*/
+.conatiner {
+    padding: 10px;
+    width: 97%;
+    height: 140px;
+    margin-left: 54px;
+    background-image: linear-gradient(45deg, #0850bd, #5897f5);
+    border-bottom-left-radius: 50px;
+}
+
+.dash {
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+#log {
+    top: 15rem;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin-top: 12rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header end */
+
+
+/* home */
+.circle {
+    position: relative;
+    left: 30%;
+    top: -300%;
+
+    overflow: hidden;
+}
+
+.homlogo {
+    position: absolute;
+    margin-left: 10%;
+    top: 7px;
+}
+
+.home {
+
+    display: flex;
+    justify-content: space-between;
+    left: 20px;
+    margin-left: 20px;
+}
+
+.box {
+    position: relative;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    margin: 40px;
+    padding: 9px 30px;
+    border-left: 8px solid #08bdbd;
+    border-radius: 10px;
+    top: -70px;
+
+}
+
+p {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* end home */
+/* banner */
+.mainhead {
+    margin-left: 60px;
+    margin-top: -1%;
+    font-size: 30px;
+
+}
+
+.card2 {
+    width: 900px;
+    height: 500px;
+    margin-left: 90px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.chart {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .conatiner {
+        margin-left: 9px;
+        height: 90px;
+    }
+
+    .circle {
+        position: relative;
+        left: 30%;
+        top: -590%;
+
+        overflow: hidden;
+
+    }
+
+    .end {
+        position: absolute;
+        bottom: 100rem;
+        left: 32rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+
+    section {
+        max-height: 120px;
+        border: 1px solid #ddd;
+        display: flex;
+
+    }
+
+    .row {
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20%;
+
+    }
+
+    .box {
+        position: relative;
+        min-width: 290px;
+        justify-content: center;
+        align-items: center;
+        background: #ffff;
+        margin: 10px;
+        padding: 9px 20px;
+        border-left: 8px solid #08bdbd;
+        border-radius: 10px;
+        top: -0px;
+    }
+
+    .homlogo {
+        visibility: hidden;
+    }
+
+    /* banner */
+    .mainhead {
+        margin-top: 30px;
+        font-size: 19px;
+        color: #000;
+        font-weight: bolder;
+
+    }
+
+    .card2 {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 350px;
+        height: 550px;
+
+
+    }
+
+}

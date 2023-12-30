@@ -1,0 +1,115 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50px;
+    background: #ffff;
+    box-shadow: 0 5px 10px #888888;
+    display: flex;
+}
+
+.sidebar ul li a i {
+    position: relative;
+    height: 50px;
+    list-style: none;
+    line-height: 50px;
+    color: rgb(153, 149, 149);
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 10px 0;
+    right: 20px;
+    margin-top: 5rem;
+
+}
+
+
+.sidebar ul li a i:hover {
+
+    color: #0e6bf5;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 12rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.end {
+    margin-top: 200px;
+}
+
+
+@media screen and (max-width:768px) {
+    .conatiner {
+        margin-left: 9px;
+        height: 80px;
+    }
+
+    .circle {
+        visibility: hidden;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #0850bd;
+    }
+
+    .sidebar {
+        position: fixed;
+        display: block;
+        bottom: 0;
+        background: #ffff;
+        width: 100%;
+        height: 10%;
+        display: grid;
+        align-content: center;
+        margin-top: 187%;
+        box-shadow: 10px 0 12px black;
+
+    }
+
+    .sidebar ul li a i {
+        display: block;
+        text-decoration: none;
+        font-weight: 500px;
+        display: inline;
+        float: left;
+        font-size: 4rem;
+        margin: 0px 47px;
+        align-content: space-between;
+        margin-bottom: 60px;
+
+    }
+
+    .end {
+        position: absolute;
+        display: inline-block;
+        bottom: 103rem;
+        left: 39rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #log {
+        color: #fff;
+    }
+
+
+    .sidebar ul li a i:hover {
+
+        color: #0e6bf5;
+    }
+
+    .bi {
+        justify-content: space-between;
+        text-align: center;
+
+    }
+}

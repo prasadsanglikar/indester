@@ -1,0 +1,185 @@
+/* header*/
+.conatiner {
+    padding: 10px;
+    width: 97%;
+    height: 140px;
+    margin-left: 3%;
+    background-image: linear-gradient(45deg, #0850bd, #5897f5);
+    border-bottom-left-radius: 50px;
+}
+
+.dash {
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+#log {
+    top: 15rem;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin-top: 12rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header end */
+
+
+/* home */
+.circle {
+    position: relative;
+    left: 30%;
+    top: -100%;
+    overflow: hidden;
+}
+
+.homlogo {
+    position: absolute;
+    margin-left: 8%;
+    top: 7px;
+}
+
+/* card */
+
+.card {
+    position: absolute;
+    border: 1px solid black;
+    width: 95%;
+    height: 800px;
+    left: 4%;
+    top: 98px;
+    box-shadow: 0 20px 30px black;
+    border-radius: 20px;
+}
+
+
+form {
+    padding: 10px 10px;
+    margin-left: 1%;
+    margin-top: 4%;
+    padding: 20px 20px;
+}
+
+input {
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+select {
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    position: absolute;
+    margin-left: -4%;
+    margin-top: -21%;
+    border-radius: 30px;
+    background-color: #0850bd;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+@media screen and (max-width:device-width) {
+    .conatiner {
+        margin-left: 9px;
+        height: 90px;
+    }
+
+    .circle {
+        position: relative;
+        left: 30%;
+        top: -590%;
+        overflow: hidden;
+
+    }
+
+    .card {
+        border: 1px solid black;
+        width: 95%;
+        height: 1400px;
+        left: 4%;
+        border-radius: 20px;
+          overflow-x: auto;
+          margin-right: 2px;
+    }
+    .card::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .end {
+        position: fixed;
+
+        bottom: 100rem;
+        left: 32rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .row {
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20%;
+
+    }
+
+    .box {
+        position: relative;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+        background: #ffff;
+        margin: 10px;
+        padding: 9px 20px;
+        border-left: 8px solid #08bdbd;
+        border-radius: 10px;
+        top: -0px;
+    }
+
+    .homlogo {
+        visibility: hidden;
+    }
+
+    form {
+        padding: 10px 10px;
+        margin-left: 1%;
+        margin-top: 4%;
+        padding: 20px 20px;
+    }
+
+  
+    select {
+        margin: 10px 0px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    button {
+      width: 20px;
+      height: 20px;
+      background-color: #0850bd;
+    }
+    textarea{
+        font-size: 20px;
+    }
+}

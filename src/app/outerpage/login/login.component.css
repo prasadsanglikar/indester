@@ -1,0 +1,198 @@
+.conatiner {
+    padding: 20px;
+    width: 2000px;
+    height: 500px;
+    background-image: linear-gradient(45deg, #0850bd, #5897f5);
+    border-bottom-left-radius: 89px;
+    display: grid;
+    overflow: auto;
+
+}
+
+
+.circle {
+    position: relative;
+    width: 747px;
+    height: 747px;
+    background-color: #337deb;
+    left: 40rem;
+    bottom: 43%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.heading {
+    position: absolute;
+    display: flex;
+    bottom: 69%;
+    left: 37%;
+    color: #fff;
+}
+
+.card {
+    position: absolute;
+    width: 30rem;
+    height: 500px;
+    left: 34%;
+    top: 34%;
+    justify-content: center;
+    box-shadow: 0 5px 10px #494848;
+    border-radius: 2%;
+    padding: 20px 20px;
+
+}
+
+
+
+img {
+    position: absolute;
+    bottom: 76%;
+    left: 40%;
+}
+
+
+form {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 11px;
+}
+
+input {
+    border: 1px solid black;
+    width: 23rem;
+    size: 20px;
+    padding: 10px 10px;
+    border-radius: 11px;
+
+}
+
+.btn {
+    border: 1px solid #2a9fd8;
+    background: #0850bd;
+    margin-top: 40px;
+    padding: 10px 10px;
+    width: 23rem;
+    border-radius: 30px;
+    cursor: pointer;
+    position: 1px;
+    margin-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+.btn:hover {
+    background-image: linear-gradient(45deg, #0850bd, #5897f5);
+
+}
+
+.bi {
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 2px;
+    left: 89%;
+    background-color: #fff;
+    border-radius: 20%;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width:998px) {
+    .conatiner {
+        max-width: 100%;
+        height: 250px;
+        overflow: hidden;
+
+    }
+
+    .circle {
+        width: 190%;
+        height: 300px;
+        left: 50%;
+    }
+
+
+    img {
+        width: 100px;
+        position: absolute;
+        left: 34%;
+    }
+
+    .heading {
+        position: fixed;
+        display: block;
+        left: 20%;
+    }
+
+    .card {
+        position: fixed;
+        display: block;
+        visibility: hidden;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .card-title {
+        position: fixed;
+        display: block;
+        display: inline-block;
+        visibility: visible;
+        color: #080808;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .form-inline {
+
+        position: absolute;
+        border-radius: 11px;
+        visibility: visible;
+        justify-content: center;
+        right: 6px;
+        margin: 40px 40px;
+    }
+
+    input {
+        font-size: 10px;
+        display: block;
+        width: 41rem;
+        padding: 14px 10px;
+        border-radius: 11px;
+
+    }
+
+
+    .bi {
+        position: absolute;
+        bottom: 2px;
+        left: 74%;
+        padding: 5px 35px;
+
+
+
+    }
+
+    .btn {
+        position: absolute;
+        visibility: visible;
+        border: 1px solid #2a9fd8;
+        background: #0850bd;
+        margin-top: 44rem;
+        padding: 10px 10px;
+        width: 40rem;
+        border-radius: 30px;
+        cursor: pointer;
+        right: 18px;
+        font-size: 12px;
+    }
+}

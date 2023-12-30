@@ -1,0 +1,412 @@
+.conatiner {
+    padding: 10px;
+    width: 97%;
+    height: 140px;
+    margin-left: 54px;
+    background-image: linear-gradient(45deg, #0850bd, #5897f5);
+    border-bottom-left-radius: 50px;
+}
+
+.dash {
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+#log {
+    top: 19rem;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin-top: 12rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header end */
+
+
+/* home */
+.circle {
+    position: relative;
+    left: 30%;
+    top: -90%;
+
+    overflow: hidden;
+}
+
+.homlogo {
+    position: absolute;
+    margin-left: 9%;
+    top: 7px;
+}
+
+.home {
+
+    display: flex;
+    justify-content: space-between;
+    left: 20px;
+    margin-left: 20px;
+}
+
+.box {
+    position: relative;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    margin: 40px;
+    padding: 10px 30px;
+    border-left: 8px solid #08bdbd;
+    border-radius: 10px;
+    top: -70px;
+
+}
+
+p {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card {
+    position: absolute;
+    border: 1px solid black;
+    width: 94%;
+    height: 800px;
+    left: 4%;
+    top: 90px;
+    box-shadow: 0 20px 30px black;
+    border-radius: 20px;
+    padding: 50px 50px;
+}
+
+/* end home */
+
+
+/* table */
+span {
+    font-size: 10px;
+}
+
+.chk {
+    float: left;
+    display: flex;
+    margin-left: 89%;
+    margin-top: -20px;
+}
+
+table {
+    width: 90%;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 90px;
+    padding: 10px 10px;
+}
+
+thead {
+    background-color: rgb(171, 198, 246);
+}
+
+.sts {
+    font-weight: bolder;
+    font: 100;
+}
+
+
+.btn {
+    border: 1px solid #0850bd;
+    background-color: #fff;
+    color: #0850bd;
+    padding: 5px 9px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.btn1 {
+    border: 1px solid #0850bd;
+    background-color: #fff;
+    color: #0850bd;
+    padding: 5px 9px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+.btn2 {
+    border: 1px solid #0850bd;
+    background-color: #fff;
+    color: #0850bd;
+    padding: 5px 9px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+label {
+    color: gray;
+}
+
+@media screen and (max-width:768px) {
+    
+
+    .conatiner {
+        margin-left: 9px;
+        height: 90px;
+
+    }
+
+    .circle {
+        position: relative;
+        left: 30%;
+        top: -590%;
+
+        overflow: hidden;
+
+    }
+
+    .card {
+
+        visibility: hidden;
+
+    }
+
+
+
+
+    .end {
+        position: absolute;
+        bottom: 100rem;
+        left: 32rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .homlogo {
+        visibility: hidden;
+    }
+
+    .search {
+        visibility: visible;
+        margin-top: -10px;
+        margin-left: -60px;
+
+    }
+
+
+
+    .table-container {
+        margin-top: 30px;
+    }
+
+
+
+    table,
+    tbody,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        /* float: left; */
+        /* ie9 fix */
+        width: 100%;
+        clear: both;
+        margin-right: 30px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 10px;
+
+
+    }
+
+    thead tr {
+        position: absolute;
+        top: -999px;
+        /* left: -99px; */
+    }
+
+    tr {
+        border: 1px solid #ccc;
+        padding: 10px 10px;
+    }
+
+    td,
+    th {
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    td:before {
+
+        width: 96%;
+        /* padding: 0 0  4%; */
+        margin-left: -100%;
+    }
+
+    td {
+        padding-left: 51%;
+
+    }
+
+
+    /*
+    Label the data
+    */
+    td {
+        border: none;
+    }
+
+
+    td:nth-of-type(2):before {
+        content: "Reason:";
+    }
+
+    td:nth-of-type(3):before {
+        content: "Type:";
+    }
+
+    td:nth-of-type(4):before {
+        content: "Div:";
+    }
+
+    td:nth-of-type(5):before {
+        content: "Category:";
+    }
+
+    td:nth-of-type(6):before {
+        content: "Priority:";
+    }
+
+    td:nth-of-type(7):before {
+        content: "Dept:";
+    }
+
+    td:nth-of-type(8):before {
+        content: "Location:";
+    }
+
+
+
+    .name {
+        position: relative;
+        margin-left: -50%;
+        font-weight: bold;
+    }
+
+    .date {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .Cate {
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 36%;
+        display: block;
+    }
+
+    .Dept {
+
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 34%;
+        display: block;
+    }
+
+    .sts {
+
+        position: absolute;
+        display: block;
+        margin-top: -66%;
+        margin-left: 15%;
+        display: block;
+
+    }
+
+    .btn {
+        position: absolute;
+        border: 1px solid #0850bd;
+        background-color: #fff;
+        color: #0850bd;
+        border-radius: 17px;
+        width: 20%;
+        font-size: 20px;
+        margin-left: -40%;
+    }
+
+    .btn1 {
+        position: absolute;
+        border: 1px solid #0850bd;
+        background-color: #fff;
+        color: #0850bd;
+        border-radius: 17px;
+        width: 20%;
+        font-size: 20px;
+        margin-left: -14%
+    }
+
+    .btn2 {
+
+        border: 1px solid #0850bd;
+        background-color: #fff;
+        color: #0850bd;
+        border-radius: 17px;
+        width: 50%;
+        font-size: 20px;
+        margin-left: 29%;
+
+
+    }
+
+
+    select,
+    label {
+        visibility: hidden;
+    }
+
+    .bx {
+        position: relative;
+        margin-left: 86%;
+        font-size: 40px;
+        margin-top: -20px;
+        cursor: pointer;
+        color: gray;
+    }
+
+    #conatiner {
+        display: block;
+        margin-left: -86%;
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        font-size: 20px;
+        box-shadow: 0px 0px 580px 0 #fff;
+        margin-top: 190px;
+        position: fixed;
+
+    }
+
+    li {
+        margin: 30px;
+
+    }
+
+    h1 {
+        margin-left: 20px;
+        color: #000;
+    }
+
+    #xgs {
+        position: absolute;
+        margin-top: 20px;
+        left: 3px;
+    }
+}

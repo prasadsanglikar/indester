@@ -1,0 +1,52 @@
+<div class="container-fluid conatiner " ng-controller="preview.PreviewController" inv-preview-helper
+  mobile-skin-name="any" ng-class="{ mobile: project.isMobile, 'is-watch': project.isWatch }">
+  <div class="circle"></div>
+  <img src="../../assets/imagelogo/logo.png" alt="" class="text-center">
+  <h5 class="heading ">Online Project Management</h5>
+  <div class="card">
+    <div class="card-body">
+      <form [formGroup]="loginForm" class="form-inline mx-auto">
+        <h5 class="card-title text-center">{{title}}</h5><br>
+        <div>
+          <small class="text-danger text-center" style="font-size: 10px; font-weight: bold;">{{small}} </small>
+        </div>
+        <div class="mb-3 mbinput"><br>
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" formControlName="username" class="form-control rounded-0" id="exampleInputEmail1"
+            aria-describedby="emailHelp" [(ngModel)]="Username" name="Username">
+        </div>
+        <small class="text-danger"
+          *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')">*Email is
+          required</small>
+        <br>
+
+
+        <div class="mb-3">
+          <div class="position-fixed">
+
+            <label for="exampleInputPassword1" class="form-label ">Password</label>
+            <input [type]="type" formControlName="pasword" class="form-control rounded-0" id="exampleInputPassword1"
+              [(ngModel)]="Password" name="Password">
+            <i (click)="hideShowPass()" class="bi {{eyeIcon }}"></i>
+            <small class="text-danger position-fixed "
+              *ngIf="loginForm.controls['pasword'].dirty && loginForm.hasError('required','pasword')">*Password is
+              required</small>
+          </div>
+          <br>
+
+        </div>
+
+        <div class="forgot text-end">
+          <a href="">Forgot Password?</a>
+        </div>
+
+
+
+      </form>
+      <button (click)="onSubmit()" type="submit" class="btn btn-primary ">Login</button>
+    </div>
+
+  </div>
+
+
+</div>
